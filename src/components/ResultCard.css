@@ -1,0 +1,54 @@
+.card__main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+.card__header {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.card__number {
+  margin-right: 0.4rem;
+}
+.card__header--title {
+  color: #0073bb;
+}
+.card__stats--main {
+}
+.card__stats--contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: end;
+}
+.card__stats--contact div {
+  margin-top: 0.3rem;
+}
+.card__icon--info {
+  margin-top: 0 !important;
+  color: #0073bb;
+  margin-right: 0;
+}
+.card__icon--bullet {
+  margin: 0 0.4rem;
+  color: #999;
+}
+.ui.medium.image {
+  width: 200px !important;
+}
+.card__img img {
+  border-radius: 5px !important;
+}
+
+.card__rating {
+  margin-bottom: 0.4rem !important;
+}
+.card__rating i {
+  margin-right: 0.2rem !important;
+}
+.card__stats--contact-wrapper {
+  margin: 0 !important;
+}
+.card__divider {
+  margin: 1.4rem 0 !important;
+}

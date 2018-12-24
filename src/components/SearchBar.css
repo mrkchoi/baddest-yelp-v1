@@ -1,0 +1,11 @@
+.searchbar__form {
+  align-items: flex-end !important;
+}
+.search {
+  margin: 0 !important;
+}
+.searchbar__btn {
+  height: 2.7rem;
+  align-self: "flex-end" !important;
+  margin: 0 0.6rem !important;
+}
