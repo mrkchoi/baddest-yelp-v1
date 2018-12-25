@@ -5,7 +5,7 @@ import "./ResultList.css";
 const ResultList = ({ results }) => {
   const renderedData = results.map(item => {
     // console.log(item);
-    return <ResultCard data={item} key={item.id} />;
+    return <ResultCard data={item} key={item.id} results={results} />;
   });
   return (
     <div className="ui container">

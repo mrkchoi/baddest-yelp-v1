@@ -3,6 +3,7 @@ import Header from "./Header";
 import SearchBar from "./SearchBar";
 import ResultList from "./ResultList";
 import yelp from "../api/yelp";
+import "./App.css";
 
 class App extends React.Component {
   state = {
@@ -20,7 +21,7 @@ class App extends React.Component {
       }
     });
 
-    // console.log(responseTerm.data.businesses);
+    console.log(responseTerm.data.businesses);
 
     const response = responseTerm.data.businesses;
     const results = response.map(item => {
@@ -35,9 +36,13 @@ class App extends React.Component {
   render() {
     return (
       <div className="ui">
-        <Header />
-        <SearchBar onFormSubmit={this.onFormSubmit} />
-        <ResultList results={this.state.data} />
+        <div className="headerbar">
+          <Header />
+          <SearchBar onFormSubmit={this.onFormSubmit} />
+        </div>
+        <div className="pagecontent">
+          <ResultList results={this.state.data} className="results__list" />
+        </div>
       </div>
     );
   }

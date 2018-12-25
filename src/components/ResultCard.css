@@ -3,6 +3,10 @@
   justify-content: space-between;
   margin-bottom: 1.2rem;
 }
+.card__content {
+  display: flex;
+  flex-direction: column;
+}
 .card__header {
   font-size: 1.2rem;
   font-weight: 600;
@@ -39,6 +43,9 @@
 }
 .ui.medium.image {
   width: 200px !important;
+}
+.card__read-reviews {
+  /* text-align: right; */
 }
 .card__img img {
   border-radius: 5px !important;
