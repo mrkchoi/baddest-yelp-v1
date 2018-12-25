@@ -14,18 +14,17 @@ import axios from "axios";
 
 // const KEY = "16f57b50750f8cab141cde7d88f570b4";
 
-const yelp = axios.create({
+const zomatoTerm = axios.create({
   baseURL:
-    "https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses",
+    "https://cors-anywhere.herokuapp.com/https://developers.zomato.com/api/v2.1",
   headers: {
     "access-control-allow-methods": "GET, POST, DELETE, PUT, PATCH, OPTIONS",
     "content-type": "application/json",
     "access-control-allow-origin": "*",
     "cache-control": "max-age=0, no-cache, no-store",
     "access-control-allow-credentials": "true",
-    Authorization:
-      "Bearer ls6OVnKsmjurPDd1siN2k2wVWw43uienKsbWmdAZlniNEQom0bd9MJK59RvEz2FZqcOy8jG0Zl-Dq_uYCP8uzmZc7ygfMdDc4YnYtHAeiz_nNPGwGczxAoLaUR8gXHYx"
+    "user-key": "16f57b50750f8cab141cde7d88f570b4"
   }
 });
 
-export default yelp;
+export default zomatoTerm;

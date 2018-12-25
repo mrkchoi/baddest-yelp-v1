@@ -1,3 +1,7 @@
+.header__main {
+  margin: 0 !important;
+  background-color: #d32323 !important;
+}
 .header__logo {
   max-width: 3.5rem;
 }

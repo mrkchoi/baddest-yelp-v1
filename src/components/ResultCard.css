@@ -24,11 +24,15 @@
 .card__stats--contact div {
   margin-top: 0.3rem;
 }
+.card__icon--info-wrapper {
+  margin-right: 0 !important;
+}
 .card__icon--info {
   margin-top: 0 !important;
   color: #0073bb;
-  margin-right: 0;
+  margin-right: 0 !important;
 }
+
 .card__icon--bullet {
   margin: 0 0.4rem;
   color: #999;
@@ -39,9 +43,23 @@
 .card__img img {
   border-radius: 5px !important;
 }
-
+.card__featured--img {
+  width: 14rem;
+  height: 14rem;
+  display: inline-block;
+  background-size: cover;
+  margin-right: 1.2rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 .card__rating {
   margin-bottom: 0.4rem !important;
+  display: flex !important;
+  align-items: flex-start;
+}
+.card__rating--stars {
+  max-width: 8rem;
+  margin: 0 !important;
 }
 .card__rating i {
   margin-right: 0.2rem !important;

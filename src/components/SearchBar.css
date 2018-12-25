@@ -1,3 +1,6 @@
+.searchbar {
+  margin: 0 !important;
+}
 .searchbar__form {
   align-items: flex-end !important;
 }
